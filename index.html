@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style/style.css">
+    <title>Форма регистрации</title>
+</head>
+<body>
+    <h1>Профиль Денис Биктимеров</h1>
+    <form action="" method="post">
+    <label>Ваш пол:
+    <input type="radio" name="one" value="male">Мужской
+    </label>
+    <label>
+    <input type="radio" name="one" value="female" checked>Женский
+    </label>
+    <br>
+    <label>Месяц и год рождения:</label> <br>
+    <select name="month">
+    <option value="January">Январь</option>>
+    <option value="February">Февраль</option>>
+    <option value="March">Март</option>>
+    <option value="April">Апрель</option>>
+    <option value="May">Май</option>>
+    <option value="June">Июнь</option>>
+    <option value="July">Июль</option>>
+    <option value="August">Август</option>>
+    <option value="September">Сентябрь</option>>
+    <option value="November">Ноябрь</option>>
+    <option value="Decemer">Декабрь</option>>
+    </select>
+    <select name = "year">
+    <option value="1999">1999</option>
+    <option value="2000">2000</option>
+    <option value="2001">2001</option>
+    <option value="2002">2002</option>
+    </select><br>
+    <label>Знакомые технологии:</label> <br>
+    <select name = "languages" multiple>
+    <option value="HTML">HTML</option>
+    <option  selected value="CSS">CSS</option>
+    <option value="JavaScript">JavaScript</option>
+    <option value="Node.js">Node.js</option>
+    </select><br>
+    <label>Фото:</label>
+    <input type="file" name="file"><br>
+    <input type="submit" value="Сохранить">
+    </form>
+</body>
+</html>
